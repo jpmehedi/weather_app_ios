@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C09313D92C3CE94600837DA3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09313D82C3CE94600837DA3 /* Launch Screen.storyboard */; };
 		C0C1A8D32C3B934400FB7359 /* weather_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C1A8D22C3B934400FB7359 /* weather_appApp.swift */; };
 		C0C1A8D52C3B934400FB7359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C1A8D42C3B934400FB7359 /* ContentView.swift */; };
 		C0C1A8D72C3B934500FB7359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C1A8D62C3B934500FB7359 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C09313D82C3CE94600837DA3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C0C1A8CF2C3B934400FB7359 /* weather_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C1A8D22C3B934400FB7359 /* weather_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_appApp.swift; sourceTree = "<group>"; };
 		C0C1A8D42C3B934400FB7359 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				C0C1A8D22C3B934400FB7359 /* weather_appApp.swift */,
 				C0C1A8D42C3B934400FB7359 /* ContentView.swift */,
 				C0C1A8D62C3B934500FB7359 /* Assets.xcassets */,
+				C09313D82C3CE94600837DA3 /* Launch Screen.storyboard */,
 				C0C1A8D82C3B934500FB7359 /* weather_app.entitlements */,
 				C0C1A8D92C3B934500FB7359 /* Preview Content */,
 			);
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09313D92C3CE94600837DA3 /* Launch Screen.storyboard in Resources */,
 				C0C1A8DB2C3B934500FB7359 /* Preview Assets.xcassets in Resources */,
 				C0C1A8D72C3B934500FB7359 /* Assets.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = weather_app/weather_app.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -432,6 +437,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -456,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = weather_app/weather_app.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -472,6 +479,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
